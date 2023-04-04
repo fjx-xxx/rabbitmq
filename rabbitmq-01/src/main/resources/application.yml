@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+#rabbitmq
+spring:
+  rabbitmq:
+    host: 47.117.143.214
+    port: 5672
+    username: guest
+    password: guest
+#    listener:
+#      simple:
+#        retry:
+#          enabled: true
+#          max-attempts: 4
+
